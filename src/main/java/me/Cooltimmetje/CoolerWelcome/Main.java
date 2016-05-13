@@ -19,7 +19,7 @@ public class Main extends JavaPlugin {
     public void onEnable(){
         startTime = System.currentTimeMillis();
 
-        getLogger().info("Enabling plugin... Please wait.");
+        getLogger().info("Enabling plugin... Please wait...");
         getLogger().info("Running Java Version: " + System.getProperty("java.version"));
 
         plugin = this;
