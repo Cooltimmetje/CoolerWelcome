@@ -1,3 +1,17 @@
+/*
+ * Copyright (c) 2015-2016 Tim Medema
+ *
+ * This plugin has no licence on it. But that DOESN'T mean you can use it.
+ * See: http://choosealicense.com/no-license/
+ *
+ * You are allowed to:
+ * - Read the code, and use it for educational purposes. No need to ask permission, credits would be nice, but not required.
+ * - Ask me questions about how this plugin works and what some of the components do.
+ *
+ * You are NOT allowed to:
+ * - Use it without my explicit permission.
+ */
+
 package me.Cooltimmetje.CoolerWelcome.Listeners;
 
 import me.Cooltimmetje.CoolerWelcome.Main;
