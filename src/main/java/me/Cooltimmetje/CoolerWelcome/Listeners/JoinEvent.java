@@ -45,7 +45,7 @@ public class JoinEvent implements Listener {
             sb.append("");
             sb.append(amount);
             String amountString = sb.toString();
-            Bukkit.broadcastMessage((Main.getPlugin().getConfig().get("settings.welcome_message").toString().replace("{0}", p.getName()).replace("{1}", amountString).replace('&', '§')));
+            Bukkit.broadcastMessage((Main.getPlugin().getConfig().get("settings.welcome_message").toString().replace("{0}", p.getName()).replace("{1}", amountString).replace('&', '\u00A7')));
             users.add(uuid);
             amount = amount + 1;
             ConfigManager.writeConfig();
