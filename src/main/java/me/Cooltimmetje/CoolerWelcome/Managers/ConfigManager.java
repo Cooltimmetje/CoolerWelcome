@@ -29,7 +29,6 @@ public class ConfigManager {
     static Configuration config = Main.getPlugin().getConfig();
 
     public static void onEnableConfig() {
-
         Main.getPlugin().saveDefaultConfig();
 
         if(config.getInt("DoNotTouch.IfYouDoConfigWillReset") != Main.configVersion || !config.contains("DoNotTouch.IfYouDoConfigWillReset")){

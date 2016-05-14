@@ -15,6 +15,7 @@
 package me.Cooltimmetje.CoolerWelcome;
 
 import me.Cooltimmetje.CoolerWelcome.Listeners.JoinEvent;
+import me.Cooltimmetje.CoolerWelcome.Managers.ConfigManager;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
@@ -36,10 +37,12 @@ public class Main extends JavaPlugin {
         getLogger().info("Running Java Version: " + System.getProperty("java.version"));
 
         plugin = this;
-        this.saveDefaultConfig();
 
         getLogger().info("Registering Listeners...");
         registerListeners(this, new JoinEvent());
+
+        getLogger().info("Setting up...");
+        ConfigManager.onEnableConfig();
 
         getLogger().info("Plugin ready! (Loadtime: " + getLoad() + "ms)");
     }
