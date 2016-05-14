@@ -20,7 +20,7 @@
 
     <groupId>me.Cooltimmetje</groupId>
     <artifactId>CoolerWelcome</artifactId>
-    <version>1.0.01</version>
+    <version>1.0.03</version>
 
     <repositories>
         <repository>

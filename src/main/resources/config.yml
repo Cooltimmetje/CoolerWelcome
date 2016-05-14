@@ -1,0 +1,16 @@
+# Set the welcome message
+# {0} will be replaced with the name
+# {1} will be replaced with the amount of players
+# Color codes are allowed!
+settings:
+   welcome_message: '&aWelcome to the server &c{0} &ayou are player number &c{1}&a!'
+
+# Do only edit stuff past this point if you know what you are doing!
+data:
+  amount: 1
+  users:
+      - defaultPlayer
+
+#Do not even think about touching this.
+DoNotTouch:
+  IfYouDoConfigWillReset: 1
