@@ -1,5 +1,5 @@
 name: CoolerWelcome
-version: 1.0
+version: 1.0.01
 description: CoolerWelcome
 author: Cooltimmetje
-main: me.cooltimmetje.CoolerWelcome.Main
+main: me.Cooltimmetje.CoolerWelcome.Main
